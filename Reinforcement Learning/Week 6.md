@@ -64,7 +64,7 @@ $$
 $$
 이 수식에서 알 수 있는 것은 Critic이 좋다고 평가해주는 방향($\nabla_a Q_\phi(s,a))$ 로 Actor 파라미터를 밀어준다는 것이다. 다른 말로 바꿔 말하면, Actor는 Critic이 평가해준 action-gradient를 통해 더 좋은 행동을 하도록 갱신한다.
 #### Soft target update
-DQN에서는 메인 네트워크 $\phi$ 를 $L$ step동안 학습하고 이를 target network $\phi$에 복사하는 방식으로 target을 hard update한다. 하지만 이는 target network가 갑자기 크게 변해서 loss가 불안정해질 수 있다는 단점이 있다. 이를 개선하기 위해 DDPG에서는 soft target update 방식을 취한다. 이는 다음과 같이 표현할 수 있다.
+DQN에서는 메인 네트워크 $\phi$ 를 $L$ step동안 학습하고 이를 target network $\phi^-$에 복사하는 방식으로 target을 hard update한다. 하지만 이는 target network가 갑자기 크게 변해서 loss가 불안정해질 수 있다는 단점이 있다. 이를 개선하기 위해 DDPG에서는 soft target update 방식을 취한다. 이는 다음과 같이 표현할 수 있다.
 $$\phi^- \leftarrow \rho\phi^- + (1-\rho)\phi \quad \text{every step}$$
 여기서 $\rho$는 0.99와 같이 1에 가까운 값을 사용한다. 이를 통해 target network가 천천히 부드럽게 변할 수 있게 해준다. 이를 통해 학습 안정성이 올라간다. DDPG는 이 soft target update 방법을 critic network 뿐만 아니라 때로 actor network에도 적용해 전체 알고리즘의 학습 안정성을 향상시킨다.
 ### TD3 : Twin Delayed Deep Deterministic Policy Gradient
