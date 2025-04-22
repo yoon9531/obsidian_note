@@ -23,10 +23,5 @@
   "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": true,
   "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": true,
   "anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle": true,
-  "anuppuccin-custom-background@@anp-background-image-toggle": true,
-  "anuppuccin-custom-background@@anp-custom-bg-brightness-light": 0.7,
-  "anuppuccin-custom-background@@anp-custom-bg-blur-light": 5,
-  "anuppuccin-custom-background@@anp-custom-bg-card-fg-opacity-light": 0.4,
-  "anuppuccin-custom-background@@anp-custom-bg-brightness-dark": 0.7,
-  "anuppuccin-custom-background@@anp-background-image-light": "url(\"https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg\")"
+  "anuppuccin-custom-background@@anp-background-image-toggle": true
 }
