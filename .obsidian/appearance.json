@@ -1,0 +1,8 @@
+{
+  "accentColor": "#2188c0",
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "color-extend"
+  ]
+}

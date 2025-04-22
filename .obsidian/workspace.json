@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "aeffeb2c98295b96",
+    "type": "split",
+    "children": [
+      {
+        "id": "6873c1ac8e4a77cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95d9cf80aa17beb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "HW3-Matrix multiplication with CUDA"
+            }
+          },
+          {
+            "id": "90250644d070ea48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning/Week 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 5"
+            }
+          },
+          {
+            "id": "01a8b331e8d2ca16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "test"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a158ba15a4e94286",
+    "type": "split",
+    "children": [
+      {
+        "id": "618e756bf7b3d6a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a22aff6b755729c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e9e4d01bee0abbc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "07d11be0b0932a87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b4faf742d459c8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "06fa44644e59a739",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8df2aa32fe58a7a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Operating System/1..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1."
+            }
+          },
+          {
+            "id": "e63a96e3973ba1d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Operating System/1..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1."
+            }
+          },
+          {
+            "id": "baeb7d0c7fa479cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "38d7f588c57bc75b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "test.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of test"
+            }
+          },
+          {
+            "id": "153c4a5460f2d91f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "01a8b331e8d2ca16",
+  "lastOpenFiles": [
+    "Reinforcement Learning/Week 5.md",
+    "test.md",
+    "CUDA.md",
+    "Reinforcement Learning/Week 4.md",
+    "Reinforcement Learning/Week 3.md",
+    "Reinforcement Learning/Week 2.md",
+    "Reinforcement Learning/Week 1.md",
+    "Reinforcement Learning/Week 8.md",
+    "정리 내용.md",
+    "영화의 이해.md",
+    "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
+    "Machine Learning",
+    "Multicore And GPU Programming/4. CUDA Intro.md",
+    "Multicore And GPU Programming/4. Intro to CUDA.md",
+    "Multicore And GPU Programming/5. CUDA Matmul.md",
+    "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
+    "Untitled.canvas",
+    "Computer System/Computer System.md",
+    "ProgrammingLanguage/언어설계원칙.md",
+    "README.md",
+    "Reinforcement Learning/week 7.md",
+    "영화의 이해/Midterm.md",
+    "2025-04-18.md",
+    "Operating System/1..md",
+    "Database/relModel.md",
+    "Database/Indexing And Hashing.md",
+    "Database/Database.md",
+    "Computer System/Dynamic Memory Allocation.md",
+    "영화의 이해",
+    "Attached/Pasted image 20250418154742.png",
+    "Attached/Pasted image 20250418151438.png",
+    "Attached/Pasted image 20250418151144.png",
+    "Attached/Pasted image 20250418145858.png",
+    "Attached/Pasted image 20250418145834.png",
+    "Attached/Pasted image 20250414005256.png",
+    "Attached/biconnectedGraph.png",
+    "Attached/Pasted image 20250403222057.png",
+    "Attached/Pasted image 20250403225655.png",
+    "Attached/Pasted image 20250403225800.png",
+    "Reinforcement Learning/Assignment",
+    "Machine Learning",
+    "컴종설",
+    "Multicore And GPU Programming/Assignment",
+    "Multicore And GPU Programming/Concepts",
+    "Multicore And GPU Programming",
+    "BOOST",
+    "Reinforcement Learning/Concept",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}
