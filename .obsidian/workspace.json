@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cc79ae5034f70e22",
+        "id": "818d9f3440dc72ee",
         "type": "tabs",
         "children": [
           {
-            "id": "cc5c81a8da416662",
+            "id": "1fd4d08bf241d53e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CUDA.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CUDA"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CUDA"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CUDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CUDA"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CUDA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CUDA"
+              "title": "Outline"
             }
           },
           {
@@ -176,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 779.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc5c81a8da416662",
+  "active": "1fd4d08bf241d53e",
   "lastOpenFiles": [
-    "Pasted image 20250419155320.png",
     "CUDA.md",
+    "Pasted image 20250419155320.png",
     "Untitled 7",
     "Untitled 6",
     "Untitled 5",

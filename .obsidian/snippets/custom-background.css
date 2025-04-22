@@ -1,0 +1,21 @@
+﻿/* ─────────────────────────────────────────
+   Settings 패널만 반투명 오버레이
+───────────────────────────────────────── */
+.anp-background-image-toggle:not(.anp-colorful-frame) {
+    /* 다크 테마일 때 */
+    &.theme-dark .modal-content.settings-modal {
+      background-color: rgba(20, 20, 20, 0.90) !important;
+      /* 필요하면 블러 추가
+      backdrop-filter: blur(4px) !important;
+      */
+    }
+  
+    /* 라이트 테마일 때 */
+    &.theme-light .modal-content.settings-modal {
+      background-color: rgba(250, 250, 250, 0.90) !important;
+      /* 필요하면 블러 추가
+      backdrop-filter: blur(4px) !important;
+      */
+    }
+  }
+  
