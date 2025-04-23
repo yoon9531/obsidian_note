@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "test"
+              "title": "3. Matrix Multiplication Optimization"
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md",
+                "file": "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of 3. Matrix Multiplication Optimization"
             }
           },
           {
@@ -203,6 +203,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -213,9 +214,14 @@
   },
   "active": "01a8b331e8d2ca16",
   "lastOpenFiles": [
+    "Multicore And GPU Programming/Assignment/HW2-Matrix Verification.md",
+    "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
     "Reinforcement Learning/Week 5.md",
-    "test.md",
+    "Reinforcement Learning/week 7.md",
+    "Multicore And GPU Programming/5. CUDA Matmul.md",
+    "Multicore And GPU Programming/4. CUDA Intro.md",
     "CUDA.md",
+    "test.md",
     "Reinforcement Learning/Week 4.md",
     "Reinforcement Learning/Week 3.md",
     "Reinforcement Learning/Week 2.md",
@@ -225,22 +231,17 @@
     "영화의 이해.md",
     "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
     "Machine Learning",
-    "Multicore And GPU Programming/4. CUDA Intro.md",
     "Multicore And GPU Programming/4. Intro to CUDA.md",
-    "Multicore And GPU Programming/5. CUDA Matmul.md",
-    "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
     "Untitled.canvas",
     "Computer System/Computer System.md",
     "ProgrammingLanguage/언어설계원칙.md",
     "README.md",
-    "Reinforcement Learning/week 7.md",
     "영화의 이해/Midterm.md",
     "2025-04-18.md",
     "Operating System/1..md",
     "Database/relModel.md",
     "Database/Indexing And Hashing.md",
     "Database/Database.md",
-    "Computer System/Dynamic Memory Allocation.md",
     "영화의 이해",
     "Attached/Pasted image 20250418154742.png",
     "Attached/Pasted image 20250418151438.png",

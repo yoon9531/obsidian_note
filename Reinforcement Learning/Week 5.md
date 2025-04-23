@@ -1,5 +1,5 @@
 지금까지 Behavior cloning에서 시작해서, policy gradient 그리고 이를 최적화하는 reward to go, baseline, actor-critic algorithm을 알아보았고 actor critic alogirthm에서 critic update하는 과정을 최적화 하기 위해 N-sep return, Importance sampling 방식을 알아보았다. 또, 학습하는 policy가 너무 커지는 것을 방지 하기 위해 clipping을 사용해 이를 방지하는 PPO를 알아보았다. 하지만 이 actor-critic algorithm은 $V, Q$ 업데이트하고 policy gradinet로 policy update하고 또 $V,Q$ 업데이트하고 policy 업데이트하는 과정을 거친다. 이를 개선하기 위해 정책을 직접 미분하고 update하여 분산을 큰 문제가 발생하는 policy gradient 방식보다는 정책을 파라미터화 해서 미분하지 않고도, $Q$를 알고 있다는 가정 하에
-$\arg\max_{\theta} Q^\pi(s,a)$를 통해 바로 새로운 정책 $\pi$를 계산할 수 있다. 이를 위해 
+$\arg\max_{\theta} Q^\pi(s,a)$를 통해 바로 새로운 정책 $\pi$를 계산할 수 있다. 이를 위해 value iteration을 진행한다. $Q(s,a)$ 값을 직접 Bellman 식으로 반복 계산하다 보면 최적의 $Q$값에 도달할 수 있다. 이를 통해 $\pi(s) = \arg\max_a Q(s,a)$ 계산을 통해 가장 큰 $Q$ 값을 주는 행동을 선택할 수 있다.
 ## Q-learning
 - Q-learning은 value-based 강화 학습 알고리즘이다. 목표는 상태 $s$에서 행동 $a$를 취했을 때 얻을 수 있는 누적 보상의 기댓값을 추정하는 함수 $Q(s,a)$를 학습하는 것이다.
 - 최적 정책을 정의하는 방법은 다음과 같다.
@@ -26,7 +26,7 @@ $\arg\max_{\theta} Q^\pi(s,a)$를 통해 바로 새로운 정책 $\pi$를 계산
 - 또, Agent가 시간 순서대로 환경과 상호작용하며 transition들을 수집하고 이 수집한 데이터들은 서로 강하게 연관돼있다.(correlated). 신경망은 i.i.d 데이터를 가정하고 학습하기 때문에 이런 상관성은 학습을 불안정하게 만들고 수렴을 방해한다. 
 	- 이를 해결하기 위해 Replay buffer를 생성한다.
 	- 이전 경험들을 replay buffer에 저장하고 무작위로 샘플링해서 학습에 사용한다. 이렇게 하면 데이터를 decorrelate할 수 있어 학습 안정성이 증가한다.
-- Q- learning에서 다음 타겟을 계산할 때 사용하는 $Q$값을 계싼할 때는 같은 네트워크에서 나온 $Q$를 사용한다. 그러면 타겟도 움직이고 파라미터도 동시에 업데이트 되므로 학습이 불안정하거나 발산할 수 있다.
+- Q- learning에서 다음 타겟을 계산할 때 사용하는 $Q$값을 계산할 때는 같은 네트워크에서 나온 $Q$를 사용한다. 그러면 타겟도 움직이고 파라미터도 동시에 업데이트 되므로 학습이 불안정하거나 발산할 수 있다.
 	- 따라서 타겟 계산에 사용되는 $Q_{\theta_{target}}$을 복사본으로 만들어 일정 주기마다 업데이트 한다.
 - Q-learning은 현재 Q값이 높은 행동만 계속 선택하는 greedy한 방법이다. 따라서 충분히 exploration하지 못해 local optima에 빠질 수 있다. 
 	- Epsilon-Greedy를 택한다. 
