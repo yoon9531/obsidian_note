@@ -193,9 +193,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "759b71b4c758d311",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -212,7 +222,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01a8b331e8d2ca16",
+  "active": "07d11be0b0932a87",
   "lastOpenFiles": [
     "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
     "Excalidraw/Drawing 2025-04-22 23.03.54.excalidraw.md",

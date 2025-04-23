@@ -1,0 +1,5 @@
+# obsidian 설정 무시
+.obsidian/
+
+# trash 무시
+.trash/
