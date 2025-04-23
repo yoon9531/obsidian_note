@@ -74,21 +74,21 @@ Q-learning 기반의 알고리즘은 기본적으로 Q값이 높은 행동을 �
 - **정확한 Q분포를 알 수 없음**: 단일 기대값만 예측함
 		$\rightarrow$ Distributional RL
 
-1. Double DQN
+1. **Double DQN**
 	- 기존 DQN은 max를 target과 network 둘 다에 사용해 Q-value가 과대추정된다. 따라서 Double DQN 방법에서는 행동 선택과 값 추정을 분리해서 수행한다. 즉, 현재 네트워크로 행동(action)을 선택하고 target 네트워크로 그 행동 값(action value)을 추정한다.
 		$$ y_i = r_i + \gamma Q_{\phi^{-}}(s^\prime, \text{argmax}_a Q_\phi(s^\prime, a))$$
-2. n-step Q-learning
+2. **n-step Q-learning**
 	- 기존 Q-learning은 1-step reward만 반영한다.
 	- n-step Q-learning에서는 미래 보상 여러 개를 누적해서 사용한다.
 	- 이를 통해 reward-to-go를 더 풍부하게 반영할 수 있고 학습이 빨라져 target variance도 줄어든다.
 	$$ y_i = \sum_{k=0}^{n-1}\gamma^k r_{t+k} + \gamma^n \max_a Q(s_{t+n}, a)$$
-3. Prioritized Experience Replay(PER)
+3. **Prioritized Experience Replay(PER)**
 	- 유용한 transition을 더 자주 학습하는 방법이다. 
 	- 기존 replay buffer는 무작위로 transition을 sampling 했는데에 반해
 	- PER은 TD-error가 큰 transition일수록 더 중요하다고 판단하고 샘플링 확률을 높인다.
 	- 이를 통해 학습을 더 빠르고 효율적으로 진행할 수 있고 중요한 학습 기회를 놓치지 않을 수 있다.
 	$$ P(i) \propto (\text{TD-error}_i + \epsilon)^\alpha$$
-4. Distributional RL
+4. **Distributional RL**
 	- Q-value 분포 자체를 학습하는 방법이다.
 	- 기존 Q-learning은 기댓값 $\mathbb{E}[Q]$만 학습했는데
 	- Distributional RL은 보상의 분포 $Z(s,a)$를 직접 모델링하여 불확실성을 표현하고 risk-sensitive한 정책을 설계할 수 있다.
