@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6873c1ac8e4a77cf",
+        "id": "acd7b20a7bf7998f",
         "type": "tabs",
         "children": [
           {
-            "id": "b95d9cf80aa17beb",
+            "id": "fc588f193bf86d3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,37 +23,22 @@
             }
           },
           {
-            "id": "90250644d070ea48",
+            "id": "daf3c31b050fbbe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning/Week 5.md",
+                "file": "Multicore And GPU Programming/Assignment/HW3 Report.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Week 5"
-            }
-          },
-          {
-            "id": "01a8b331e8d2ca16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-22 23.03.54.excalidraw.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Drawing 2025-04-22 23.03.54.excalidraw"
+              "title": "HW3 Report"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,13 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2025-04-22 23.03.54.excalidraw.md",
+                "file": "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Drawing 2025-04-22 23.03.54.excalidraw"
+              "title": "Outline of HW3-Matrix multiplication with CUDA"
             }
           },
           {
@@ -209,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,10 +208,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07d11be0b0932a87",
+  "active": "daf3c31b050fbbe1",
   "lastOpenFiles": [
+    "인공지능 금융공학 7주차 과제.md",
+    "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
+    "컴종설/Picocom.md",
+    "Multicore And GPU Programming/Assignment/HW3 Report.md",
+    "Attached/Pasted image 20250425115030.png",
+    "Attached/Pasted image 20250425115028.png",
+    "Reinforcement Learning/Week 3.md",
+    "Reinforcement Learning/Week 2.md",
+    "Reinforcement Learning/3-2 Policy gradient.md",
+    "Multicore And GPU Programming/중간 문제 복기.md",
+    "Reinforcement Learning/5-1. Q-Learning.md",
+    "Reinforcement Learning/3-1. Reinforcement Learning.md",
+    "Reinforcement Learning/Week 4.md",
+    "Multicore And GPU Programming/Concepts/Bellman Equation.md",
+    "Multicore And GPU Programming/4. CUDA Intro.md",
+    "Multicore And GPU Programming/5. CUDA Matmul.md",
+    "Multicore And GPU Programming/4. Intro to CUDA.md",
+    "Machine Learning/6. Support Vector Machine.md",
+    "Machine Learning/3. Linear Regression.md",
     "Multicore And GPU Programming/3. Matrix Multiplication Optimization.md",
+    "Machine Learning/5. Generative Learning Algorithms.md",
+    "Machine Learning/2. Parametric Estimation.md",
+    "Machine Learning/1. ML Intro.md",
+    "Untitled.md",
+    "Machine Learning/Untitled",
     "Excalidraw/Drawing 2025-04-22 23.03.54.excalidraw.md",
+    "Reinforcement Learning/Week 5.md",
     "Excalidraw",
     "Attached/Pasted image 20250423011458.png",
     "Attached/Pasted image 20250423010944.png",
@@ -235,42 +246,17 @@
     "Attached/Pasted image 20250423004203.png",
     "Attached/Pasted image 20250423003530.png",
     "Multicore And GPU Programming/Assignment/HW2-Matrix Verification.md",
-    "Reinforcement Learning/Week 5.md",
     "Reinforcement Learning/week 7.md",
-    "Multicore And GPU Programming/5. CUDA Matmul.md",
-    "Multicore And GPU Programming/4. CUDA Intro.md",
-    "CUDA.md",
-    "test.md",
-    "Reinforcement Learning/Week 4.md",
-    "Reinforcement Learning/Week 3.md",
-    "Reinforcement Learning/Week 2.md",
-    "Reinforcement Learning/Week 1.md",
-    "Reinforcement Learning/Week 8.md",
-    "정리 내용.md",
-    "영화의 이해.md",
-    "Multicore And GPU Programming/Assignment/HW3-Matrix multiplication with CUDA.md",
     "Machine Learning",
-    "Multicore And GPU Programming/4. Intro to CUDA.md",
     "Untitled.canvas",
-    "Computer System/Computer System.md",
-    "ProgrammingLanguage/언어설계원칙.md",
-    "README.md",
-    "영화의 이해/Midterm.md",
-    "2025-04-18.md",
-    "Operating System/1..md",
-    "Database/relModel.md",
-    "Database/Indexing And Hashing.md",
     "영화의 이해",
     "Attached/Pasted image 20250418154742.png",
-    "Attached/Pasted image 20250418151438.png",
-    "Attached/Pasted image 20250418151144.png",
     "Reinforcement Learning/Assignment",
     "Machine Learning",
     "컴종설",
     "Multicore And GPU Programming/Assignment",
     "Multicore And GPU Programming/Concepts",
     "Multicore And GPU Programming",
-    "BOOST",
     "Untitled 2.canvas",
     "Untitled 1.canvas"
   ]

@@ -39,6 +39,9 @@
 - L1 cache : 128KB (per SM)
 - L2 cache : 6MB
 - CUDA core 수 : 10496
+- SM 개수 : 82
+- Max threads per SM = 1536
+![[Pasted image 20250425115030.png|500]]
 #### 최적화 아이디어
 - **타일링**·**공유 메모리**로 A·B 블록 재사용
 - **warp coalesing**으로 연속 메모리 접근
